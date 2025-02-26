@@ -102,6 +102,7 @@ body {
   background-color: var(--bs-body-bg);
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  background-image: url(../assets/img/background.png);
 }
 
 hr {
@@ -201,6 +202,18 @@ ul ul,
 ol ul,
 ul ol {
   margin-bottom: 0;
+}
+
+.learn {
+  font-family: serif;
+  text-transform: none;
+  font-size: 1rem;
+}
+.learning li {
+text-transform: none;
+text-decoration: none;
+font-family: serif;
+font-size: 1rem;
 }
 
 dt {
@@ -642,6 +655,10 @@ progress {
   margin-right: auto;
   margin-left: auto;
 }
+.container-fluid.p-0 {
+  background-color: rgba(255, 255, 255, 0.58);
+}
+
 
 @media (min-width: 576px) {
   .container-sm, .container {
